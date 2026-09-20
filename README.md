@@ -7,6 +7,7 @@
 ## Mục Tiêu
 
 Sau bài thực hành (lab) này, bạn cần có thể:
+
 - Giải thích độ tương tự cosine (cosine similarity) và dự đoán điểm tương đồng giữa các văn bản
 - Triển khai 3 chiến lược chia nhỏ (chunking) và so sánh ưu nhược điểm
 - Xây dựng kho lưu trữ vector (vector store) với các tính năng tìm kiếm (search), lọc (filter), và xóa (delete)
@@ -46,6 +47,7 @@ File `.env` được tự động nạp khi chạy `main.py`. Với các đoạn
 ### 1) Mặc định: Trình nhúng giả lập (Mock embedder)
 
 Không cần cài gì thêm ngoài:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -80,6 +82,7 @@ PY
 
 - Mô hình mặc định cho lựa chọn này là `text-embedding-3-small`
 - Có thể đổi mô hình bằng cách:
+
 ```bash
 export OPENAI_EMBEDDING_MODEL=text-embedding-3-small
 ```
@@ -101,6 +104,7 @@ PY
 
 - Mô hình mặc định cho lựa chọn này là `gemini-embedding-001`
 - Có thể đổi mô hình bằng cách:
+
 ```bash
 export GEMINI_EMBEDDING_MODEL=gemini-embedding-001
 ```
@@ -174,7 +178,7 @@ PY
 ## Các Giai Đoạn Của Lab
 
 | Giai Đoạn | Hoạt Động |
-|-----------|-----------|
+| ----------- | ----------- |
 | Chuẩn bị tài liệu | Nhóm chọn chủ đề, thu thập tài liệu, chuyển sang định dạng .md/.txt |
 | Lập trình cá nhân | Khởi động + hoàn thành tất cả TODO (cá nhân) |
 | Thiết kế chiến lược | Mỗi người thử chiến lược riêng, thống nhất 5 câu hỏi đánh giá |
@@ -186,10 +190,12 @@ PY
 ## Nhiệm Vụ Cá Nhân (Giai Đoạn 1)
 
 ### Đã lập trình sẵn (để tham khảo)
+
 - `Document` dataclass — cấu trúc lưu trữ văn bản + siêu dữ liệu (metadata)
 - `FixedSizeChunker` — chia nhỏ theo kích thước cố định với cơ chế cửa sổ trượt (sliding window)
 
 ### Cần lập trình (CẦN LÀM)
+
 - `SentenceChunker` — chia nhỏ theo ranh giới câu
 - `RecursiveChunker` — thử nghiệm từng dấu phân cách theo thứ tự
 - `compute_similarity` — tính độ tương tự cosine
@@ -242,7 +248,7 @@ Khi chạy đánh giá (benchmark), đừng chỉ hỏi **"code có chạy khôn
 Xem chi tiết tại `docs/SCORING.md`. Tóm tắt:
 
 | Phần | Điểm |
-|------|------|
+| ------ | ------ |
 | Cá nhân (mã nguồn + phân tích) | 60 |
 | Nhóm (chiến lược + so sánh) | 40 |
 | **Tổng** | **100** |
