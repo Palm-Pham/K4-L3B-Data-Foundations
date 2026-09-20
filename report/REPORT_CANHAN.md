@@ -1,8 +1,8 @@
 # Báo Cáo Cá Nhân — Lab 7: Embedding & Vector Store
 
-**Họ tên:** [Tên sinh viên]
-**Nhóm:** [Tên nhóm]
-**Ngày:** [Ngày nộp]
+**Họ tên:** PHAM DINH BAO KHOI
+**Nhóm:** Linhlinh
+**Ngày:** Sep 20, 2026
 
 > **Nộp 1 bản / sinh viên.** Phần nhóm (lựa chọn tài liệu, thiết kế chiến lược, bộ câu hỏi đánh giá, demo) nộp chung 1 bản trong `REPORT_NHOM.md`. Chi tiết thang điểm: `docs/SCORING.md`.
 
@@ -18,11 +18,13 @@
 > *Viết 1-2 câu:*
 
 **Ví dụ có độ tương tự CAO:**
+
 - Câu A:
 - Câu B:
 - Tại sao tương đồng:
 
 **Ví dụ có độ tương tự THẤP:**
+
 - Câu A:
 - Câu B:
 - Tại sao khác:
@@ -74,9 +76,7 @@ Vượt qua bộ kiểm thử là điều kiện tính điểm phần này.
 
 ### Kết Quả Kiểm Thử (Test Results)
 
-```
-# Dán kết quả (output) của: pytest tests/ -v
-```
+ Dán kết quả (output) của: pytest tests/ -v
 
 **Số lượng bài test vượt qua (pass):** __ / 42
 
@@ -85,7 +85,7 @@ Vượt qua bộ kiểm thử là điều kiện tính điểm phần này.
 ## 4. Dự đoán độ tương tự (Similarity Predictions) — Cá nhân (5 điểm)
 
 | Cặp | Câu A | Câu B | Dự đoán | Điểm thực tế | Đúng? |
-|------|-----------|-----------|---------|--------------|-------|
+| ------ | ----------- | ----------- | --------- | -------------- | ------- |
 | 1 | | | cao / thấp | | |
 | 2 | | | cao / thấp | | |
 | 3 | | | cao / thấp | | |
@@ -102,7 +102,7 @@ Vượt qua bộ kiểm thử là điều kiện tính điểm phần này.
 Chạy **5 câu hỏi đánh giá của nhóm** trên mã nguồn cá nhân của bạn trong gói `src`. **5 câu hỏi này phải trùng với các thành viên cùng nhóm** (xem `REPORT_NHOM.md`).
 
 | # | Câu hỏi (Query) | Top-1 Chunk truy xuất được (tóm tắt) | Điểm Score | Có liên quan không? (Relevant) | Câu trả lời của Agent (tóm tắt) |
-|---|-------|--------------------------------|-------|-----------|------------------------|
+| --- | ------- | -------------------------------- | ------- | ----------- | ------------------------ |
 | 1 | | | | | |
 | 2 | | | | | |
 | 3 | | | | | |
@@ -119,7 +119,7 @@ Chạy **5 câu hỏi đánh giá của nhóm** trên mã nguồn cá nhân củ
 ## Tự Đánh Giá (Phần Cá Nhân)
 
 | Tiêu chí | Điểm tự đánh giá |
-|----------|-------------------|
+| ---------- | ------------------- |
 | Khởi động (Warm-up) | / 5 |
 | Hướng tiếp cận của tôi (My Approach) | / 10 |
 | Hoàn thiện code (Core Implementation — tests) | / 30 |
