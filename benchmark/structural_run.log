@@ -1,0 +1,16 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 13212.60it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Embedding backend: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2; max tokens=128
+fixed_size: embedding 312 chunks
+fixed_size {'hit_at_1': 0.8, 'hit_at_3': 0.8, 'mrr': 0.8, 'full_support': 0.6, 'rubric_score': 7}
+recursive: embedding 303 chunks
+recursive {'hit_at_1': 0.6, 'hit_at_3': 0.8, 'mrr': 0.7, 'full_support': 0.6, 'rubric_score': 7}
+header: embedding 393 chunks
+header {'hit_at_1': 0.6, 'hit_at_3': 0.8, 'mrr': 0.7, 'full_support': 0.4, 'rubric_score': 6}

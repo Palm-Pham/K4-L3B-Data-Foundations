@@ -1,0 +1,108 @@
+{
+  "timestamp_utc": "2026-09-21T08:55:08.721361+00:00",
+  "status": "complete",
+  "embedding_model": "gemini-embedding-001",
+  "dimensions": [
+    3072
+  ],
+  "threshold": 0.5,
+  "configuration": "Existing GeminiEmbedder defaults; no explicit task_type or output_dimensionality",
+  "api_calls_this_run": 10,
+  "cached_sentences_reused": 0,
+  "mock_embedder_used": false,
+  "results": [
+    {
+      "pair": 1,
+      "sentence_a": "I want to return a product bought on Shopee.",
+      "sentence_b": "How can I request a refund for a Shopee order?",
+      "prediction": "high",
+      "actual_score": 0.870621585614066,
+      "actual_classification": "high",
+      "correct": true,
+      "embedding_model": "gemini-embedding-001",
+      "classification_threshold": 0.5,
+      "dimension_a": 3072,
+      "dimension_b": 3072,
+      "explanation": "Both sentences concern Shopee post-purchase remedies: returning goods and requesting a refund. Their intents are related, though a return and a refund are not identical actions. The measured cosine 0.870622 is at or above 0.50, so it is classified as high; the initial prediction is correct."
+    },
+    {
+      "pair": 2,
+      "sentence_a": "The seller must properly package the goods.",
+      "sentence_b": "If improper packaging causes damage to the goods, who is responsible?",
+      "prediction": "high",
+      "actual_score": 0.8326795053740629,
+      "actual_classification": "high",
+      "correct": true,
+      "embedding_model": "gemini-embedding-001",
+      "classification_threshold": 0.5,
+      "dimension_a": 3072,
+      "dimension_b": 3072,
+      "explanation": "Both sentences concern packaging goods; the second asks about responsibility when packaging is improper. This connects a general duty with a possible consequence, rather than expressing the same proposition. The measured cosine 0.832680 is at or above 0.50, so it is classified as high; the initial prediction is correct."
+    },
+    {
+      "pair": 3,
+      "sentence_a": "Shopee prohibits the listing and sale of drugs and weapons.",
+      "sentence_b": "What is the weather like in Hanoi today?",
+      "prediction": "low",
+      "actual_score": 0.4412448320940341,
+      "actual_classification": "low",
+      "correct": true,
+      "embedding_model": "gemini-embedding-001",
+      "classification_threshold": 0.5,
+      "dimension_a": 3072,
+      "dimension_b": 3072,
+      "explanation": "The first sentence concerns prohibited e-commerce listings, while the second asks about weather. They differ in both subject matter and communicative purpose. The measured cosine 0.441245 is below 0.50, so it is classified as low; the initial prediction is correct."
+    },
+    {
+      "pair": 4,
+      "sentence_a": "The privacy policy explains how Shopee collects personal data.",
+      "sentence_b": "What purposes does Shopee use user information for?",
+      "prediction": "high",
+      "actual_score": 0.8407361522473624,
+      "actual_classification": "high",
+      "correct": true,
+      "embedding_model": "gemini-embedding-001",
+      "classification_threshold": 0.5,
+      "dimension_a": 3072,
+      "dimension_b": 3072,
+      "explanation": "Both sentences concern Shopee personal-information practices. Data collection and the purposes of using data are related aspects of privacy, but are distinct questions. The measured cosine 0.840736 is at or above 0.50, so it is classified as high; the initial prediction is correct."
+    },
+    {
+      "pair": 5,
+      "sentence_a": "My order is currently being shipped.",
+      "sentence_b": "I want to change my Shopee account password.",
+      "prediction": "low",
+      "actual_score": 0.47629718334989746,
+      "actual_classification": "low",
+      "correct": true,
+      "embedding_model": "gemini-embedding-001",
+      "classification_threshold": 0.5,
+      "dimension_a": 3072,
+      "dimension_b": 3072,
+      "explanation": "Both could occur in an e-commerce support conversation, but shipment status and changing an account password are different user intents. The measured cosine 0.476297 is below 0.50, so it is classified as low; the initial prediction is correct."
+    }
+  ],
+  "correct_predictions": 5,
+  "evaluated_pairs": 5,
+  "most_unexpected_pair": 5,
+  "most_unexpected_analysis": "All five predictions were correct; pair 5 was the most unexpected because its score of 0.476297 was closest to the 0.50 threshold (distance 0.023703). Shipment status and password changes share a possible support setting but express different user goals. This observation is consistent with embeddings reflecting overlapping topics and intents, but one cosine score does not establish why the model represented the sentences that way.",
+  "error": null,
+  "reviewed_files": [
+    "src/embeddings.py",
+    "src/chunking.py",
+    "report/REPORT_CANHAN.md",
+    "data/ecommerce/shopee-chinh-sach-doi-tra-hoan-tien.md",
+    "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+    "data/ecommerce/shopee-chinh-sach-bao-mat.md",
+    "data/ecommerce/shopee-dieu-khoan-dich-vu.md"
+  ],
+  "corpus_files": [
+    "data/ecommerce/shopee-chinh-sach-bao-hanh-mall.md",
+    "data/ecommerce/shopee-chinh-sach-bao-mat.md",
+    "data/ecommerce/shopee-chinh-sach-doi-tra-hoan-tien.md",
+    "data/ecommerce/shopee-dieu-khoan-dich-vu.md",
+    "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+    "data/ecommerce/shopee-quy-trinh-giai-quyet-tranh-chap.md",
+    "data/ecommerce/sources.csv"
+  ]
+}

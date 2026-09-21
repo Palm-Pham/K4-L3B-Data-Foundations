@@ -1,0 +1,703 @@
+{
+  "status": "complete",
+  "timestamp_utc": "2026-09-21T09:43:11.830331+00:00",
+  "strategy": "HeadingStructureChunker",
+  "chunk_size_characters": 1000,
+  "embedding_model": "gemini-embedding-001",
+  "embedding_dimension": 3072,
+  "generation_model": "gemini-flash-lite-latest",
+  "mock_embedder_used": false,
+  "score": "cosine similarity",
+  "top_k": 3,
+  "corpus_document_count": 6,
+  "chunk_count": 345,
+  "embedding_api_calls_this_run": 0,
+  "embedding_cache_hits": 350,
+  "generation_api_calls_this_run": 0,
+  "agent_cache_hits": 5,
+  "queries": [
+    {
+      "number": 1,
+      "query": "Người bán cần làm gì để đăng bán đúng quy định trên Shopee?",
+      "gold_answer": "Người bán phải đảm bảo tên sản phẩm, hình ảnh, mô tả, danh mục ngành hàng, nguồn gốc và bảo hành phù hợp; không được sử dụng hình ảnh sai, mô tả sai hoặc vi phạm pháp luật.",
+      "reported_answer_location": "shopee-quy-dinh-dang-ban-san-pham.md — Mục Quy định chung / Tiêu chuẩn đăng bán",
+      "reported_metadata_filter": {
+        "audience": "seller",
+        "category": "seller-rules"
+      },
+      "metadata_filter": {
+        "audience": "seller",
+        "category": "seller-rules"
+      },
+      "top_3": [
+        {
+          "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:c5a3f994f9eb2634c1d60911",
+          "content": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán\n\nCHÍNH SÁCH CẤM/HẠN CHẾ SẢN PHẨM | Shopee Trung tâm trợ giúp\nXin chào, Shopee có thể giúp gì cho bạn?\nCHÍNH SÁCH CẤM/HẠN CHẾ SẢN PHẨM",
+          "score": 0.8134684658331206,
+          "metadata": {
+            "doc_id": "shopee-quy-dinh-dang-ban-san-pham",
+            "source": "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+            "title": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "category": "seller-rules",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "chunk_index": 0,
+            "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:c5a3f994f9eb2634c1d60911"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:fa1186c741f7f1ffd5d1b658",
+          "content": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 1. ĐỐI TƯỢNG ÁP DỤNG\n\nChính sách này áp dụng đối với tất cả Người Bán trên Sàn TMĐT Shopee (“Sàn Shopee”).",
+          "score": 0.8127945163311204,
+          "metadata": {
+            "doc_id": "shopee-quy-dinh-dang-ban-san-pham",
+            "source": "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+            "title": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "category": "seller-rules",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 1. ĐỐI TƯỢNG ÁP DỤNG",
+            "chunk_index": 1,
+            "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:fa1186c741f7f1ffd5d1b658"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:0e0352f07a94b897a70a153f",
+          "content": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 2. PHẠM VI ÁP DỤNG\n\nChính sách này áp dụng đối với việc đăng bán sản phẩm, hàng hóa, dịch vụ trên Sàn Shopee. Mỗi khi đăng bán sản phẩm, Người Bán có trách nhiệm đảm bảo hàng hóa của mình tuân thủ Luật pháp hiện hành đồng thời không vi phạm các Điều Khoản Sử Dụng và Chính Sách Shopee. Vui lòng đọc kỹ các hướng dẫn dưới đây về Chính Sách Cấm/Hạn Chế Sản Phẩm mua bán trên Shopee.\nDanh sách có thể sẽ thay đổi dựa theo tình hình thực tế, vui lòng cập nhật thường xuyên để đảm bảo hàng hóa của bạn không vi phạm Chính Sách Shopee.",
+          "score": 0.8072621853050306,
+          "metadata": {
+            "doc_id": "shopee-quy-dinh-dang-ban-san-pham",
+            "source": "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+            "title": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "category": "seller-rules",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 2. PHẠM VI ÁP DỤNG",
+            "chunk_index": 2,
+            "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:0e0352f07a94b897a70a153f"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        }
+      ],
+      "unfiltered_top_3_diagnostic": [
+        {
+          "chunk_id": "shopee-chinh-sach-bao-hanh-mall:caff9a0f4418e0145a1b87e3",
+          "content": "Chính sách bảo hành sản phẩm chính hãng Shopee Mall > C. HƯỚNG DẪN ĐĂNG BÁN SẢN PHẨM TRÊN SHOPEE\n\nTiêu đề, hình ảnh, giá cả, mô tả sản phẩm và các thông tin liên quan phải thống nhất, đúng chính tả, đúng quy định về đăng tin của Shopee. Cụ thể như sau:",
+          "score": 0.8367786124370881,
+          "metadata": {
+            "doc_id": "shopee-chinh-sach-bao-hanh-mall",
+            "source": "data/ecommerce/shopee-chinh-sach-bao-hanh-mall.md",
+            "title": "Chính sách bảo hành sản phẩm chính hãng Shopee Mall",
+            "category": "warranty",
+            "audience": "buyer",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Chính sách bảo hành sản phẩm chính hãng Shopee Mall > C. HƯỚNG DẪN ĐĂNG BÁN SẢN PHẨM TRÊN SHOPEE",
+            "chunk_index": 9,
+            "chunk_id": "shopee-chinh-sach-bao-hanh-mall:caff9a0f4418e0145a1b87e3"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:c5a3f994f9eb2634c1d60911",
+          "content": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán\n\nCHÍNH SÁCH CẤM/HẠN CHẾ SẢN PHẨM | Shopee Trung tâm trợ giúp\nXin chào, Shopee có thể giúp gì cho bạn?\nCHÍNH SÁCH CẤM/HẠN CHẾ SẢN PHẨM",
+          "score": 0.8134684658331206,
+          "metadata": {
+            "doc_id": "shopee-quy-dinh-dang-ban-san-pham",
+            "source": "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+            "title": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "category": "seller-rules",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "chunk_index": 0,
+            "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:c5a3f994f9eb2634c1d60911"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:fa1186c741f7f1ffd5d1b658",
+          "content": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 1. ĐỐI TƯỢNG ÁP DỤNG\n\nChính sách này áp dụng đối với tất cả Người Bán trên Sàn TMĐT Shopee (“Sàn Shopee”).",
+          "score": 0.8127945163311204,
+          "metadata": {
+            "doc_id": "shopee-quy-dinh-dang-ban-san-pham",
+            "source": "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+            "title": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "category": "seller-rules",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 1. ĐỐI TƯỢNG ÁP DỤNG",
+            "chunk_index": 1,
+            "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:fa1186c741f7f1ffd5d1b658"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        }
+      ],
+      "top_1_relevant": false,
+      "top_3_contains_relevant": false,
+      "top_3_fully_supports_gold": false,
+      "full_gold_support_reason": "Top-3 thiếu bằng chứng cho: tên sản phẩm, hình ảnh sản phẩm, mô tả sản phẩm, danh mục ngành hàng, nguồn gốc, bảo hành.",
+      "agent_answer": "Các đoạn truy xuất không cung cấp đủ thông tin để nêu chi tiết những việc người bán cần làm để đăng bán đúng quy định.",
+      "agent_error": null,
+      "corpus_consistency_note": "Mâu thuẫn: bằng chứng đầy đủ nằm trong file `shopee-chinh-sach-bao-hanh-mall.md` có thân bài về đăng bán, không phải file/category được báo cáo nhóm chỉ ra; filter gợi ý loại mất bằng chứng này."
+    },
+    {
+      "number": 2,
+      "query": "Sản phẩm nào bị Shopee cấm hoặc hạn chế bán?",
+      "gold_answer": "Các nhóm hàng như vũ khí, chất nguy hiểm, ma túy, thiết bị giám sát, nội dung nhạy cảm, hàng giả và các mặt hàng vi phạm pháp luật hoặc quyền sở hữu trí tuệ.",
+      "reported_answer_location": "shopee-quy-dinh-dang-ban-san-pham.md — Danh mục hàng hóa cấm kinh doanh",
+      "reported_metadata_filter": {
+        "audience": "seller",
+        "category": "seller-rules"
+      },
+      "metadata_filter": {
+        "audience": "seller",
+        "category": "seller-rules"
+      },
+      "top_3": [
+        {
+          "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:c5a3f994f9eb2634c1d60911",
+          "content": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán\n\nCHÍNH SÁCH CẤM/HẠN CHẾ SẢN PHẨM | Shopee Trung tâm trợ giúp\nXin chào, Shopee có thể giúp gì cho bạn?\nCHÍNH SÁCH CẤM/HẠN CHẾ SẢN PHẨM",
+          "score": 0.8759355537188919,
+          "metadata": {
+            "doc_id": "shopee-quy-dinh-dang-ban-san-pham",
+            "source": "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+            "title": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "category": "seller-rules",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "chunk_index": 0,
+            "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:c5a3f994f9eb2634c1d60911"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:0e0352f07a94b897a70a153f",
+          "content": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 2. PHẠM VI ÁP DỤNG\n\nChính sách này áp dụng đối với việc đăng bán sản phẩm, hàng hóa, dịch vụ trên Sàn Shopee. Mỗi khi đăng bán sản phẩm, Người Bán có trách nhiệm đảm bảo hàng hóa của mình tuân thủ Luật pháp hiện hành đồng thời không vi phạm các Điều Khoản Sử Dụng và Chính Sách Shopee. Vui lòng đọc kỹ các hướng dẫn dưới đây về Chính Sách Cấm/Hạn Chế Sản Phẩm mua bán trên Shopee.\nDanh sách có thể sẽ thay đổi dựa theo tình hình thực tế, vui lòng cập nhật thường xuyên để đảm bảo hàng hóa của bạn không vi phạm Chính Sách Shopee.",
+          "score": 0.8325253853235908,
+          "metadata": {
+            "doc_id": "shopee-quy-dinh-dang-ban-san-pham",
+            "source": "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+            "title": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "category": "seller-rules",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 2. PHẠM VI ÁP DỤNG",
+            "chunk_index": 2,
+            "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:0e0352f07a94b897a70a153f"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:ba6bc579fec53dc0e2ad5163",
+          "content": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 3. HÀNH VI VI PHẠM VÀ BIỆN PHÁP XỬ LÝ > 4. DANH SÁCH SẢN PHẨM BỊ CẤM/HẠN CHẾ MUA BÁN TRÊN SHOPEE > 4.20\n\n4.20. Các mặt hàng bị cấm vận",
+          "score": 0.819915225541943,
+          "metadata": {
+            "doc_id": "shopee-quy-dinh-dang-ban-san-pham",
+            "source": "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+            "title": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "category": "seller-rules",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 3. HÀNH VI VI PHẠM VÀ BIỆN PHÁP XỬ LÝ > 4. DANH SÁCH SẢN PHẨM BỊ CẤM/HẠN CHẾ MUA BÁN TRÊN SHOPEE > 4.20",
+            "chunk_index": 25,
+            "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:ba6bc579fec53dc0e2ad5163"
+          },
+          "relevant": true,
+          "relevance_reason": "Nội dung hỗ trợ mệnh đề Gold Answer: mặt hàng bị cấm vận."
+        }
+      ],
+      "unfiltered_top_3_diagnostic": [
+        {
+          "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:c5a3f994f9eb2634c1d60911",
+          "content": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán\n\nCHÍNH SÁCH CẤM/HẠN CHẾ SẢN PHẨM | Shopee Trung tâm trợ giúp\nXin chào, Shopee có thể giúp gì cho bạn?\nCHÍNH SÁCH CẤM/HẠN CHẾ SẢN PHẨM",
+          "score": 0.8759355537188919,
+          "metadata": {
+            "doc_id": "shopee-quy-dinh-dang-ban-san-pham",
+            "source": "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+            "title": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "category": "seller-rules",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "chunk_index": 0,
+            "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:c5a3f994f9eb2634c1d60911"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:0e0352f07a94b897a70a153f",
+          "content": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 2. PHẠM VI ÁP DỤNG\n\nChính sách này áp dụng đối với việc đăng bán sản phẩm, hàng hóa, dịch vụ trên Sàn Shopee. Mỗi khi đăng bán sản phẩm, Người Bán có trách nhiệm đảm bảo hàng hóa của mình tuân thủ Luật pháp hiện hành đồng thời không vi phạm các Điều Khoản Sử Dụng và Chính Sách Shopee. Vui lòng đọc kỹ các hướng dẫn dưới đây về Chính Sách Cấm/Hạn Chế Sản Phẩm mua bán trên Shopee.\nDanh sách có thể sẽ thay đổi dựa theo tình hình thực tế, vui lòng cập nhật thường xuyên để đảm bảo hàng hóa của bạn không vi phạm Chính Sách Shopee.",
+          "score": 0.8325253853235908,
+          "metadata": {
+            "doc_id": "shopee-quy-dinh-dang-ban-san-pham",
+            "source": "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+            "title": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "category": "seller-rules",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 2. PHẠM VI ÁP DỤNG",
+            "chunk_index": 2,
+            "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:0e0352f07a94b897a70a153f"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-chinh-sach-bao-hanh-mall:1edfdd35964bee9c6198a60d",
+          "content": "Chính sách bảo hành sản phẩm chính hãng Shopee Mall > B. QUY ĐỊNH CHUNG: > 2. Các nội dung không được phép đăng bán\n\nNgười Bán được quyền đăng các sản phẩm lên Shopee nhằm mục đích kinh doanh. Tuy nhiên, NGHIÊM CẤM đăng tải những sản phẩm có nội dung sau đây:\na. Phản động, chống phá, bài xích tôn giáo, khiêu dâm, bạo lực, đi ngược lại thuần phong mỹ tục, truyền thống và văn hóa Việt Nam, xâm phạm chủ quyền, toàn vẹn lãnh thổ, an ninh quốc gia của Việt Nam;\nb. Đăng thông tin rác, phá rối hay làm mất uy tín của các dịch vụ do Shopee cung cấp;\nc. Xúc phạm, khích bác đến người khác dưới bất kỳ hình thức nào;\nd. Tuyên truyền về những thông tin mà pháp luật nghiêm cấm như: sử dụng heroin, thuốc lắc, giết người, cướp của,vv… (Ví dụ: sản phẩm in hình lá cần sa, shisha);\ne. Khuyến khích, quảng cáo cho việc sử dụng các sản phẩm độc hại (VD: thuốc lá, rượu, cần sa);\nf. Các sản phẩm văn hóa đồi trụy (băng đĩa, sách báo, vật phẩm);",
+          "score": 0.8277980626061436,
+          "metadata": {
+            "doc_id": "shopee-chinh-sach-bao-hanh-mall",
+            "source": "data/ecommerce/shopee-chinh-sach-bao-hanh-mall.md",
+            "title": "Chính sách bảo hành sản phẩm chính hãng Shopee Mall",
+            "category": "warranty",
+            "audience": "buyer",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Chính sách bảo hành sản phẩm chính hãng Shopee Mall > B. QUY ĐỊNH CHUNG: > 2. Các nội dung không được phép đăng bán",
+            "chunk_index": 4,
+            "chunk_id": "shopee-chinh-sach-bao-hanh-mall:1edfdd35964bee9c6198a60d"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        }
+      ],
+      "top_1_relevant": false,
+      "top_3_contains_relevant": true,
+      "top_3_fully_supports_gold": false,
+      "full_gold_support_reason": "Top-3 thiếu bằng chứng cho: vũ khí, ma túy, thiết bị giám sát, hàng giả.",
+      "agent_answer": "Các đoạn truy xuất không nêu rõ cụ thể từng sản phẩm bị cấm hoặc hạn chế, mà chỉ đề cập đến mục \"Chính sách cấm/hạn chế sản phẩm\" và danh sách các mặt hàng bị cấm vận. Người bán cần tuân thủ luật pháp và các điều khoản, chính sách của Shopee.",
+      "agent_error": null,
+      "corpus_consistency_note": "Phù hợp: danh sách hàng giả, vũ khí, ma túy, thiết bị giám sát và hóa chất nguy hiểm có trong `shopee-quy-dinh-dang-ban-san-pham.md`."
+    },
+    {
+      "number": 3,
+      "query": "Nếu hàng hóa dễ vỡ hoặc nguy hiểm, Shopee có quy định gì?",
+      "gold_answer": "Hàng dễ vỡ, hàng hóa nguy hiểm hoặc có rủi ro vận chuyển cao cần đóng gói đặc biệt, có cảnh báo rõ ràng và có thể bị từ chối vận chuyển nếu không đủ điều kiện.",
+      "reported_answer_location": "shopee-chinh-sach-doi-tra-hoan-tien.md — Điều kiện & Thời hạn trả hàng",
+      "reported_metadata_filter": null,
+      "metadata_filter": null,
+      "top_3": [
+        {
+          "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:c5a3f994f9eb2634c1d60911",
+          "content": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán\n\nCHÍNH SÁCH CẤM/HẠN CHẾ SẢN PHẨM | Shopee Trung tâm trợ giúp\nXin chào, Shopee có thể giúp gì cho bạn?\nCHÍNH SÁCH CẤM/HẠN CHẾ SẢN PHẨM",
+          "score": 0.7940000952820653,
+          "metadata": {
+            "doc_id": "shopee-quy-dinh-dang-ban-san-pham",
+            "source": "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+            "title": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "category": "seller-rules",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "chunk_index": 0,
+            "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:c5a3f994f9eb2634c1d60911"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:57e9d01d3ecea7074fc36306",
+          "content": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 3. HÀNH VI VI PHẠM VÀ BIỆN PHÁP XỬ LÝ > 4. DANH SÁCH SẢN PHẨM BỊ CẤM/HẠN CHẾ MUA BÁN TRÊN SHOPEE > 4.10\n\n4.10. Các loại hóa chất nguy hiểm và dễ gây cháy, nổ\na. Các loại pháo: Pháo nổ, pháo hoa, pháo đập, giàn phun viên, pháo khói, đạn đập làm bằng thuốc pháo hoặc bằng các loại vật liệu khác có thể gây cháy, bỏng…\nb. Các hóa chất liên quan đến chế tạo chất nổ sẽ cấm bán: Natri Clora, Kali Clorat, Kali Perclorat, NH4NO3, NaNO3, CH3NO2, KNO3, NaClO3, KClO3, KClO4, Hexogen, Trinitrotoluen, Octogen, Pentrit…\nc. Xăng, dầu, gas\nd. Bật lửa\ne. Thuốc trừ sâu",
+          "score": 0.778282627000621,
+          "metadata": {
+            "doc_id": "shopee-quy-dinh-dang-ban-san-pham",
+            "source": "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+            "title": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "category": "seller-rules",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 3. HÀNH VI VI PHẠM VÀ BIỆN PHÁP XỬ LÝ > 4. DANH SÁCH SẢN PHẨM BỊ CẤM/HẠN CHẾ MUA BÁN TRÊN SHOPEE > 4.10",
+            "chunk_index": 14,
+            "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:57e9d01d3ecea7074fc36306"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:0e0352f07a94b897a70a153f",
+          "content": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 2. PHẠM VI ÁP DỤNG\n\nChính sách này áp dụng đối với việc đăng bán sản phẩm, hàng hóa, dịch vụ trên Sàn Shopee. Mỗi khi đăng bán sản phẩm, Người Bán có trách nhiệm đảm bảo hàng hóa của mình tuân thủ Luật pháp hiện hành đồng thời không vi phạm các Điều Khoản Sử Dụng và Chính Sách Shopee. Vui lòng đọc kỹ các hướng dẫn dưới đây về Chính Sách Cấm/Hạn Chế Sản Phẩm mua bán trên Shopee.\nDanh sách có thể sẽ thay đổi dựa theo tình hình thực tế, vui lòng cập nhật thường xuyên để đảm bảo hàng hóa của bạn không vi phạm Chính Sách Shopee.",
+          "score": 0.7641896230774701,
+          "metadata": {
+            "doc_id": "shopee-quy-dinh-dang-ban-san-pham",
+            "source": "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+            "title": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "category": "seller-rules",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 2. PHẠM VI ÁP DỤNG",
+            "chunk_index": 2,
+            "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:0e0352f07a94b897a70a153f"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        }
+      ],
+      "unfiltered_top_3_diagnostic": [
+        {
+          "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:c5a3f994f9eb2634c1d60911",
+          "content": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán\n\nCHÍNH SÁCH CẤM/HẠN CHẾ SẢN PHẨM | Shopee Trung tâm trợ giúp\nXin chào, Shopee có thể giúp gì cho bạn?\nCHÍNH SÁCH CẤM/HẠN CHẾ SẢN PHẨM",
+          "score": 0.7940000952820653,
+          "metadata": {
+            "doc_id": "shopee-quy-dinh-dang-ban-san-pham",
+            "source": "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+            "title": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "category": "seller-rules",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "chunk_index": 0,
+            "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:c5a3f994f9eb2634c1d60911"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:57e9d01d3ecea7074fc36306",
+          "content": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 3. HÀNH VI VI PHẠM VÀ BIỆN PHÁP XỬ LÝ > 4. DANH SÁCH SẢN PHẨM BỊ CẤM/HẠN CHẾ MUA BÁN TRÊN SHOPEE > 4.10\n\n4.10. Các loại hóa chất nguy hiểm và dễ gây cháy, nổ\na. Các loại pháo: Pháo nổ, pháo hoa, pháo đập, giàn phun viên, pháo khói, đạn đập làm bằng thuốc pháo hoặc bằng các loại vật liệu khác có thể gây cháy, bỏng…\nb. Các hóa chất liên quan đến chế tạo chất nổ sẽ cấm bán: Natri Clora, Kali Clorat, Kali Perclorat, NH4NO3, NaNO3, CH3NO2, KNO3, NaClO3, KClO3, KClO4, Hexogen, Trinitrotoluen, Octogen, Pentrit…\nc. Xăng, dầu, gas\nd. Bật lửa\ne. Thuốc trừ sâu",
+          "score": 0.778282627000621,
+          "metadata": {
+            "doc_id": "shopee-quy-dinh-dang-ban-san-pham",
+            "source": "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+            "title": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "category": "seller-rules",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 3. HÀNH VI VI PHẠM VÀ BIỆN PHÁP XỬ LÝ > 4. DANH SÁCH SẢN PHẨM BỊ CẤM/HẠN CHẾ MUA BÁN TRÊN SHOPEE > 4.10",
+            "chunk_index": 14,
+            "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:57e9d01d3ecea7074fc36306"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:0e0352f07a94b897a70a153f",
+          "content": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 2. PHẠM VI ÁP DỤNG\n\nChính sách này áp dụng đối với việc đăng bán sản phẩm, hàng hóa, dịch vụ trên Sàn Shopee. Mỗi khi đăng bán sản phẩm, Người Bán có trách nhiệm đảm bảo hàng hóa của mình tuân thủ Luật pháp hiện hành đồng thời không vi phạm các Điều Khoản Sử Dụng và Chính Sách Shopee. Vui lòng đọc kỹ các hướng dẫn dưới đây về Chính Sách Cấm/Hạn Chế Sản Phẩm mua bán trên Shopee.\nDanh sách có thể sẽ thay đổi dựa theo tình hình thực tế, vui lòng cập nhật thường xuyên để đảm bảo hàng hóa của bạn không vi phạm Chính Sách Shopee.",
+          "score": 0.7641896230774701,
+          "metadata": {
+            "doc_id": "shopee-quy-dinh-dang-ban-san-pham",
+            "source": "data/ecommerce/shopee-quy-dinh-dang-ban-san-pham.md",
+            "title": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán",
+            "category": "seller-rules",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy định về đăng bán sản phẩm và tiêu chuẩn dành cho Người bán > 2. PHẠM VI ÁP DỤNG",
+            "chunk_index": 2,
+            "chunk_id": "shopee-quy-dinh-dang-ban-san-pham:0e0352f07a94b897a70a153f"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        }
+      ],
+      "top_1_relevant": false,
+      "top_3_contains_relevant": false,
+      "top_3_fully_supports_gold": false,
+      "full_gold_support_reason": "Top-3 thiếu bằng chứng cho: đóng gói đặc biệt, cảnh báo rõ ràng, từ chối vận chuyển.",
+      "agent_answer": "Các đoạn truy xuất không cung cấp đủ thông tin.",
+      "agent_error": null,
+      "corpus_consistency_note": "Gold Answer không được corpus hỗ trợ đầy đủ; chính sách trả hàng chỉ nêu các trường hợp bể vỡ, không nêu đủ đóng gói đặc biệt, cảnh báo và từ chối vận chuyển."
+    },
+    {
+      "number": 4,
+      "query": "Người mua có thể khiếu nại khi hàng vận chuyển bị hư hỏng không?",
+      "gold_answer": "Có, người mua hoặc người bán có thể gửi khiếu nại trong thời hạn quy định và cần cung cấp hình ảnh/video, biên bản đồng kiểm, hóa đơn và bằng chứng liên quan.",
+      "reported_answer_location": "shopee-chinh-sach-bao-mat.md — Thu thập, sử dụng và chia sẻ thông tin",
+      "reported_metadata_filter": {
+        "category": "privacy-policy"
+      },
+      "metadata_filter": {
+        "category": "privacy-policy"
+      },
+      "top_3": [
+        {
+          "chunk_id": "shopee-chinh-sach-bao-mat:c28647b27ad9e56c98f1eff5",
+          "content": "Chính sách bảo mật thông tin và dữ liệu cá nhân Shopee > 11. LOẠI TRỪ TRÁCH NHIỆM VỀ NGHĨA VỤ BẢO MẬT VÀ CÁC TRANG WEB BÊN THỨ BA > 14. THẮC MẮC, QUAN NGẠI HOẶC KHIẾU NẠI? LIÊN HỆ VỚI CHÚNG TÔI\n\nNếu bạn có bất kỳ thắc mắc, yêu cầu bảo vệ hoặc khiếu nại nào về các phương pháp bảo vệ quyền riêng tư của chúng tôi vui lòng liên hệ với chúng tôi theo thông tin sau:\nCÔNG TY TNHH SHOPEE\nĐịa chỉ: Tầng 4-5-6, Tòa nhà Capital Place, số 29 đường Liễu Giai, Phường Ngọc Hà, Thành phố Hà Nội, Việt Nam\nEmail: dpo.vn@shopee.com hoặc tại ĐÂY.\nChính sách này được cập nhật vào ngày 04/6/2026 và có hiệu lực sau 07 (bảy) ngày kể từ ngày đăng tải. Để tham khảo phiên bản trước của Chính sách Bảo mật, vui lòng bấm vào ĐÂY.\nBạn có hài lòng với bài viết này?\nHài lòng\nKhông hài lòng",
+          "score": 0.6099036350611888,
+          "metadata": {
+            "doc_id": "shopee-chinh-sach-bao-mat",
+            "source": "data/ecommerce/shopee-chinh-sach-bao-mat.md",
+            "title": "Chính sách bảo mật thông tin và dữ liệu cá nhân Shopee",
+            "category": "privacy-policy",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Chính sách bảo mật thông tin và dữ liệu cá nhân Shopee > 11. LOẠI TRỪ TRÁCH NHIỆM VỀ NGHĨA VỤ BẢO MẬT VÀ CÁC TRANG WEB BÊN THỨ BA > 14. THẮC MẮC, QUAN NGẠI HOẶC KHIẾU NẠI? LIÊN HỆ VỚI CHÚNG TÔI",
+            "chunk_index": 85,
+            "chunk_id": "shopee-chinh-sach-bao-mat:c28647b27ad9e56c98f1eff5"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-chinh-sach-bao-mat:46e46deaebe5d5655b6b6d2f",
+          "content": "Chính sách bảo mật thông tin và dữ liệu cá nhân Shopee > 5. COOKIES > 6. CHÚNG TÔI SỬ DỤNG THÔNG TIN BẠN CUNG CẤP CHO CHÚNG TÔI NHƯ THẾ NÀO? > 6.2\n\n(d) phản hồi bất kỳ khiếu nại nào du cho là nguy cơ hoặc đang xảy ra trên thực tế để chống lại Shopee hoặc các chi nhánh có liên quan hoặc khiếu nại khác rằng bất kỳ Nội dung nào vi phạm quyền của bên thứ ba; (e) đáp ứng các yêu cầu của bạn về dịch vụ khách hàng; hoặc (f) bảo vệ quyền, tài sản hoặc sự an toàn cá nhân của Shopee hoặc các chi nhánh có liên quan, người dùng và / hoặc công chúng.",
+          "score": 0.6058606020521599,
+          "metadata": {
+            "doc_id": "shopee-chinh-sach-bao-mat",
+            "source": "data/ecommerce/shopee-chinh-sach-bao-mat.md",
+            "title": "Chính sách bảo mật thông tin và dữ liệu cá nhân Shopee",
+            "category": "privacy-policy",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Chính sách bảo mật thông tin và dữ liệu cá nhân Shopee > 5. COOKIES > 6. CHÚNG TÔI SỬ DỤNG THÔNG TIN BẠN CUNG CẤP CHO CHÚNG TÔI NHƯ THẾ NÀO? > 6.2",
+            "chunk_index": 38,
+            "chunk_id": "shopee-chinh-sach-bao-mat:46e46deaebe5d5655b6b6d2f"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-chinh-sach-bao-mat:965ea9e362f52a52005c0823",
+          "content": "Chính sách bảo mật thông tin và dữ liệu cá nhân Shopee > 11. LOẠI TRỪ TRÁCH NHIỆM VỀ NGHĨA VỤ BẢO MẬT VÀ CÁC TRANG WEB BÊN THỨ BA > 11.3\n\n11.3. Do đó chúng tôi không chịu trách nhiệm hay trách nhiệm pháp lý đối với nội dung, các biện pháp bảo mật (hoặc sự thiếu biện pháp bảo mật) và các hoạt động của các trang web/ứng dụng/dịch vụ được liên kết này. Những trang web/ứng dụng/dịch vụ được liên kết này chỉ vì sự thuận tiện cho bạn và do đó bạn tự chịu trách nhiệm khi truy cập chúng. Tuy nhiên, chúng tôi tìm cách bảo vệ tính toàn vẹn của Nền tảng của chúng tôi và các liên kết được đặt trên từng trang web đó và do đó chúng tôi hoan nghênh ý kiến phản hồi về các trang web được liên kết này (bao gồm nếu một trang web cụ thể không hoạt động).",
+          "score": 0.5856247359980428,
+          "metadata": {
+            "doc_id": "shopee-chinh-sach-bao-mat",
+            "source": "data/ecommerce/shopee-chinh-sach-bao-mat.md",
+            "title": "Chính sách bảo mật thông tin và dữ liệu cá nhân Shopee",
+            "category": "privacy-policy",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Chính sách bảo mật thông tin và dữ liệu cá nhân Shopee > 11. LOẠI TRỪ TRÁCH NHIỆM VỀ NGHĨA VỤ BẢO MẬT VÀ CÁC TRANG WEB BÊN THỨ BA > 11.3",
+            "chunk_index": 67,
+            "chunk_id": "shopee-chinh-sach-bao-mat:965ea9e362f52a52005c0823"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        }
+      ],
+      "unfiltered_top_3_diagnostic": [
+        {
+          "chunk_id": "shopee-quy-trinh-giai-quyet-tranh-chap:34ccb674c807a336accdbc1f",
+          "content": "Quy trình giải quyết tranh chấp và khiếu nại giữa Người mua và Người bán\n\nHelp Center",
+          "score": 0.7723487481398361,
+          "metadata": {
+            "doc_id": "shopee-quy-trinh-giai-quyet-tranh-chap",
+            "source": "data/ecommerce/shopee-quy-trinh-giai-quyet-tranh-chap.md",
+            "title": "Quy trình giải quyết tranh chấp và khiếu nại giữa Người mua và Người bán",
+            "category": "dispute-resolution",
+            "audience": "seller",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Quy trình giải quyết tranh chấp và khiếu nại giữa Người mua và Người bán",
+            "chunk_index": 0,
+            "chunk_id": "shopee-quy-trinh-giai-quyet-tranh-chap:34ccb674c807a336accdbc1f"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-dieu-khoan-dich-vu:12f38906d486f234b62c1d25",
+          "content": "Điều khoản dịch vụ và Quy chế hoạt động Sàn Shopee > 13. VẬN CHUYỂN > 13.4\n\nĐể tránh hiểu lầm, đối với tất các dịch vụ vận chuyển, trách nhiệm của Shopee chỉ giới hạn ở việc hỗ trợ thực hiện các báo cáo/khiếu nại của Người Mua đến Người Mua và/hoặc Đơn Vị Cung Cấp Dịch Vụ Vận Chuyển có liên quan. Nếu Người Mua không đưa ra các thông báo trong một khoảng thời gian được quy định tại Chính Sách Shopee và Chính Sách Bảo Đảm của Shopee, Người Mua sẽ được xem như là đã nhận được sản phẩm đã mua theo Chính Sách Shopee. Mỗi Người Mua và Người Bán hiểu rõ và đồng ý rằng Shopee sẽ không chịu trách nhiệm cho, và giữ cho Shopee khỏi các thiệt hại, chi phí, phí tổn, phí phát sinh từ việc vận chuyển các sản phẩm đã mua. Người Bán và/hoặc Người Mua sẽ thảo luận về bất kỳ khiếu nại nào với Đơn Vị Cung Cấp Dịch Vụ Vận Chuyển thông qua Shopee để giải quyết vấn đề.",
+          "score": 0.7484690349893416,
+          "metadata": {
+            "doc_id": "shopee-dieu-khoan-dich-vu",
+            "source": "data/ecommerce/shopee-dieu-khoan-dich-vu.md",
+            "title": "Điều khoản dịch vụ và Quy chế hoạt động Sàn Shopee",
+            "category": "terms-of-service",
+            "audience": "buyer",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Điều khoản dịch vụ và Quy chế hoạt động Sàn Shopee > 13. VẬN CHUYỂN > 13.4",
+            "chunk_index": 105,
+            "chunk_id": "shopee-dieu-khoan-dich-vu:12f38906d486f234b62c1d25"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-dieu-khoan-dich-vu:a131b7dc41ebbdf40035fa5c",
+          "content": "Điều khoản dịch vụ và Quy chế hoạt động Sàn Shopee > 13. VẬN CHUYỂN > 13.3\n\n13.3. Người Sử Dụng hiểu rằng Người Bán chịu toàn bộ rủi ro liên quan đến việc vận chuyển hàng hóa được mua và bảo đảm rằng Người Bán đã hoặc sẽ mua bảo hiểm hàng hóa, bao gồm cả việc vận chuyển. Trong trường hợp hàng hóa được mua bị hư hỏng, thất lạc hoặc không chuyển phát được trong quá trình vận chuyển, Người Sử Dụng thừa nhận và đồng ý rằng Shopee sẽ không chịu trách nhiệm đối với bất kỳ tổn thất, chi phí, phí tổn hoặc bất kỳ khoản phí nào phát sinh từ sự cố đó.",
+          "score": 0.7468964884422092,
+          "metadata": {
+            "doc_id": "shopee-dieu-khoan-dich-vu",
+            "source": "data/ecommerce/shopee-dieu-khoan-dich-vu.md",
+            "title": "Điều khoản dịch vụ và Quy chế hoạt động Sàn Shopee",
+            "category": "terms-of-service",
+            "audience": "buyer",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Điều khoản dịch vụ và Quy chế hoạt động Sàn Shopee > 13. VẬN CHUYỂN > 13.3",
+            "chunk_index": 103,
+            "chunk_id": "shopee-dieu-khoan-dich-vu:a131b7dc41ebbdf40035fa5c"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        }
+      ],
+      "top_1_relevant": false,
+      "top_3_contains_relevant": false,
+      "top_3_fully_supports_gold": false,
+      "full_gold_support_reason": "Top-3 thiếu bằng chứng cho: hư hỏng, hình ảnh, video, biên bản đồng kiểm, hóa đơn.",
+      "agent_answer": "Các đoạn truy xuất không cung cấp đủ thông tin.",
+      "agent_error": null,
+      "corpus_consistency_note": "Mâu thuẫn: tài liệu/filter `privacy-policy` không liên quan đến hư hỏng vận chuyển; corpus cũng thiếu đầy đủ bộ chứng cứ được nêu trong Gold Answer."
+    },
+    {
+      "number": 5,
+      "query": "Ai chịu trách nhiệm nếu hàng hóa đóng gói sai quy cách gây hư hỏng?",
+      "gold_answer": "Người bán chịu trách nhiệm về đóng gói sai quy cách; Shopee có thể từ chối bồi thường nếu nguyên nhân do lỗi đóng gói của người bán.",
+      "reported_answer_location": "shopee-chinh-sach-bao-hanh-mall.md — Quy trình & Điều kiện tiếp nhận bảo hành Shopee Mall",
+      "reported_metadata_filter": null,
+      "metadata_filter": null,
+      "top_3": [
+        {
+          "chunk_id": "shopee-dieu-khoan-dich-vu:a131b7dc41ebbdf40035fa5c",
+          "content": "Điều khoản dịch vụ và Quy chế hoạt động Sàn Shopee > 13. VẬN CHUYỂN > 13.3\n\n13.3. Người Sử Dụng hiểu rằng Người Bán chịu toàn bộ rủi ro liên quan đến việc vận chuyển hàng hóa được mua và bảo đảm rằng Người Bán đã hoặc sẽ mua bảo hiểm hàng hóa, bao gồm cả việc vận chuyển. Trong trường hợp hàng hóa được mua bị hư hỏng, thất lạc hoặc không chuyển phát được trong quá trình vận chuyển, Người Sử Dụng thừa nhận và đồng ý rằng Shopee sẽ không chịu trách nhiệm đối với bất kỳ tổn thất, chi phí, phí tổn hoặc bất kỳ khoản phí nào phát sinh từ sự cố đó.",
+          "score": 0.694197217339192,
+          "metadata": {
+            "doc_id": "shopee-dieu-khoan-dich-vu",
+            "source": "data/ecommerce/shopee-dieu-khoan-dich-vu.md",
+            "title": "Điều khoản dịch vụ và Quy chế hoạt động Sàn Shopee",
+            "category": "terms-of-service",
+            "audience": "buyer",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Điều khoản dịch vụ và Quy chế hoạt động Sàn Shopee > 13. VẬN CHUYỂN > 13.3",
+            "chunk_index": 103,
+            "chunk_id": "shopee-dieu-khoan-dich-vu:a131b7dc41ebbdf40035fa5c"
+          },
+          "relevant": true,
+          "relevance_reason": "Nội dung hỗ trợ mệnh đề Gold Answer: Người Bán chịu rủi ro vận chuyển và Shopee không chịu trách nhiệm khi hàng hư hỏng."
+        },
+        {
+          "chunk_id": "shopee-chinh-sach-doi-tra-hoan-tien:61f618999cceabd24e81561a",
+          "content": "Những quy định chung về Trả hàng/Hoàn tiền của Shopee > 1. Điều kiện Trả hàng/Hoàn tiền của Shopee > 1.3. Lý do Trả hàng/Hoàn tiền\n\n| Hàng bể vỡ – rò rỉ chất lỏng | Sản phẩm có chứa chất lỏng và đã bị rò rỉ do bể vỡ bao bì sản phẩm trong quá trình vận chuyển. | Tất cả sản phẩm. |\n| Hàng bể vỡ – thùng hàng không nguyên vẹn | Bao bì của nhà sản xuất bị hư hại, ảnh hưởng đến chất lượng/giá trị sản phẩm. | Tất cả sản phẩm. |\n| Hàng bể vỡ – khác | Các loại bể vỡ khác với bốn loại bể vỡ đã liệt kê bên trên (bạn có thể chú thích cụ thể thêm khi yêu cầu trả hàng). | Tất cả sản phẩm. |\n| Hàng lỗi, không hoạt động | Sản phẩm không thực hiện được chức năng như mô tả của Người bán. | Tất cả sản phẩm. |\n| Khác với mô tả | Sản phẩm có sự khác biệt rõ ràng về chất liệu, màu sắc, thông số, kiểu dáng so với mô tả của Người bán. | Tất cả sản phẩm. |",
+          "score": 0.6753043186651454,
+          "metadata": {
+            "doc_id": "shopee-chinh-sach-doi-tra-hoan-tien",
+            "source": "data/ecommerce/shopee-chinh-sach-doi-tra-hoan-tien.md",
+            "title": "Những quy định chung về Trả hàng/Hoàn tiền của Shopee",
+            "category": "returns-refunds",
+            "audience": "buyer",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Những quy định chung về Trả hàng/Hoàn tiền của Shopee > 1. Điều kiện Trả hàng/Hoàn tiền của Shopee > 1.3. Lý do Trả hàng/Hoàn tiền",
+            "chunk_index": 5,
+            "chunk_id": "shopee-chinh-sach-doi-tra-hoan-tien:61f618999cceabd24e81561a"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-chinh-sach-bao-hanh-mall:58964d44507a6ab0f40478e7",
+          "content": "Chính sách bảo hành sản phẩm chính hãng Shopee Mall > C. HƯỚNG DẪN ĐĂNG BÁN SẢN PHẨM TRÊN SHOPEE > 7. Phí vận chuyển\n\na. Người Bán phải xác định chính xác khối lượng sản phẩm cần vận chuyển để ước lượng chi phí vận chuyển.\nb. Khối lượng sản phẩm đăng ký phải là khối lượng sau khi đóng gói của hàng hóa để chuyển đi. Người Bán chịu trách nhiệm về tính chính xác đối với khối lượng sản phẩm đăng ký này.\nc. Với các sản phẩm cồng kềnh, Người Bán nên tham khảo thêm Chính sách vận chuyển để biết chi tiết cách thức xác định khối lượng sản phẩm.\nTham khảo Cách tính phí vận chuyển Shopee cho Người bán tại đây.",
+          "score": 0.6689977047294532,
+          "metadata": {
+            "doc_id": "shopee-chinh-sach-bao-hanh-mall",
+            "source": "data/ecommerce/shopee-chinh-sach-bao-hanh-mall.md",
+            "title": "Chính sách bảo hành sản phẩm chính hãng Shopee Mall",
+            "category": "warranty",
+            "audience": "buyer",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Chính sách bảo hành sản phẩm chính hãng Shopee Mall > C. HƯỚNG DẪN ĐĂNG BÁN SẢN PHẨM TRÊN SHOPEE > 7. Phí vận chuyển",
+            "chunk_index": 35,
+            "chunk_id": "shopee-chinh-sach-bao-hanh-mall:58964d44507a6ab0f40478e7"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        }
+      ],
+      "unfiltered_top_3_diagnostic": [
+        {
+          "chunk_id": "shopee-dieu-khoan-dich-vu:a131b7dc41ebbdf40035fa5c",
+          "content": "Điều khoản dịch vụ và Quy chế hoạt động Sàn Shopee > 13. VẬN CHUYỂN > 13.3\n\n13.3. Người Sử Dụng hiểu rằng Người Bán chịu toàn bộ rủi ro liên quan đến việc vận chuyển hàng hóa được mua và bảo đảm rằng Người Bán đã hoặc sẽ mua bảo hiểm hàng hóa, bao gồm cả việc vận chuyển. Trong trường hợp hàng hóa được mua bị hư hỏng, thất lạc hoặc không chuyển phát được trong quá trình vận chuyển, Người Sử Dụng thừa nhận và đồng ý rằng Shopee sẽ không chịu trách nhiệm đối với bất kỳ tổn thất, chi phí, phí tổn hoặc bất kỳ khoản phí nào phát sinh từ sự cố đó.",
+          "score": 0.694197217339192,
+          "metadata": {
+            "doc_id": "shopee-dieu-khoan-dich-vu",
+            "source": "data/ecommerce/shopee-dieu-khoan-dich-vu.md",
+            "title": "Điều khoản dịch vụ và Quy chế hoạt động Sàn Shopee",
+            "category": "terms-of-service",
+            "audience": "buyer",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Điều khoản dịch vụ và Quy chế hoạt động Sàn Shopee > 13. VẬN CHUYỂN > 13.3",
+            "chunk_index": 103,
+            "chunk_id": "shopee-dieu-khoan-dich-vu:a131b7dc41ebbdf40035fa5c"
+          },
+          "relevant": true,
+          "relevance_reason": "Nội dung hỗ trợ mệnh đề Gold Answer: Người Bán chịu rủi ro vận chuyển và Shopee không chịu trách nhiệm khi hàng hư hỏng."
+        },
+        {
+          "chunk_id": "shopee-chinh-sach-doi-tra-hoan-tien:61f618999cceabd24e81561a",
+          "content": "Những quy định chung về Trả hàng/Hoàn tiền của Shopee > 1. Điều kiện Trả hàng/Hoàn tiền của Shopee > 1.3. Lý do Trả hàng/Hoàn tiền\n\n| Hàng bể vỡ – rò rỉ chất lỏng | Sản phẩm có chứa chất lỏng và đã bị rò rỉ do bể vỡ bao bì sản phẩm trong quá trình vận chuyển. | Tất cả sản phẩm. |\n| Hàng bể vỡ – thùng hàng không nguyên vẹn | Bao bì của nhà sản xuất bị hư hại, ảnh hưởng đến chất lượng/giá trị sản phẩm. | Tất cả sản phẩm. |\n| Hàng bể vỡ – khác | Các loại bể vỡ khác với bốn loại bể vỡ đã liệt kê bên trên (bạn có thể chú thích cụ thể thêm khi yêu cầu trả hàng). | Tất cả sản phẩm. |\n| Hàng lỗi, không hoạt động | Sản phẩm không thực hiện được chức năng như mô tả của Người bán. | Tất cả sản phẩm. |\n| Khác với mô tả | Sản phẩm có sự khác biệt rõ ràng về chất liệu, màu sắc, thông số, kiểu dáng so với mô tả của Người bán. | Tất cả sản phẩm. |",
+          "score": 0.6753043186651454,
+          "metadata": {
+            "doc_id": "shopee-chinh-sach-doi-tra-hoan-tien",
+            "source": "data/ecommerce/shopee-chinh-sach-doi-tra-hoan-tien.md",
+            "title": "Những quy định chung về Trả hàng/Hoàn tiền của Shopee",
+            "category": "returns-refunds",
+            "audience": "buyer",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Những quy định chung về Trả hàng/Hoàn tiền của Shopee > 1. Điều kiện Trả hàng/Hoàn tiền của Shopee > 1.3. Lý do Trả hàng/Hoàn tiền",
+            "chunk_index": 5,
+            "chunk_id": "shopee-chinh-sach-doi-tra-hoan-tien:61f618999cceabd24e81561a"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        },
+        {
+          "chunk_id": "shopee-chinh-sach-bao-hanh-mall:58964d44507a6ab0f40478e7",
+          "content": "Chính sách bảo hành sản phẩm chính hãng Shopee Mall > C. HƯỚNG DẪN ĐĂNG BÁN SẢN PHẨM TRÊN SHOPEE > 7. Phí vận chuyển\n\na. Người Bán phải xác định chính xác khối lượng sản phẩm cần vận chuyển để ước lượng chi phí vận chuyển.\nb. Khối lượng sản phẩm đăng ký phải là khối lượng sau khi đóng gói của hàng hóa để chuyển đi. Người Bán chịu trách nhiệm về tính chính xác đối với khối lượng sản phẩm đăng ký này.\nc. Với các sản phẩm cồng kềnh, Người Bán nên tham khảo thêm Chính sách vận chuyển để biết chi tiết cách thức xác định khối lượng sản phẩm.\nTham khảo Cách tính phí vận chuyển Shopee cho Người bán tại đây.",
+          "score": 0.6689977047294532,
+          "metadata": {
+            "doc_id": "shopee-chinh-sach-bao-hanh-mall",
+            "source": "data/ecommerce/shopee-chinh-sach-bao-hanh-mall.md",
+            "title": "Chính sách bảo hành sản phẩm chính hãng Shopee Mall",
+            "category": "warranty",
+            "audience": "buyer",
+            "document_version": "2026.08",
+            "language": "vi",
+            "heading_path": "Chính sách bảo hành sản phẩm chính hãng Shopee Mall > C. HƯỚNG DẪN ĐĂNG BÁN SẢN PHẨM TRÊN SHOPEE > 7. Phí vận chuyển",
+            "chunk_index": 35,
+            "chunk_id": "shopee-chinh-sach-bao-hanh-mall:58964d44507a6ab0f40478e7"
+          },
+          "relevant": false,
+          "relevance_reason": "Chunk không chứa mệnh đề đủ để hỗ trợ Gold Answer; không chấm theo tên file."
+        }
+      ],
+      "top_1_relevant": true,
+      "top_3_contains_relevant": true,
+      "top_3_fully_supports_gold": false,
+      "full_gold_support_reason": "Top-3 thiếu bằng chứng cho: đóng gói sai, từ chối bồi thường.",
+      "agent_answer": "Các đoạn truy xuất không cung cấp đủ thông tin.",
+      "agent_error": null,
+      "corpus_consistency_note": "Gold Answer không được corpus hỗ trợ đầy đủ; file được chỉ ra có thân bài về quy định đăng bán và không nêu Shopee từ chối bồi thường do đóng gói sai."
+    }
+  ],
+  "top_3_relevant_count": 2,
+  "errors": []
+}

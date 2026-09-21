@@ -1,0 +1,410 @@
+{
+  "method": "Manual reading of all 45 retrieved chunks against the source-verified gold answer. Complete proposition matches support reproducible scoring; this review also checks context, partial evidence and alternative support. No keyword-only relevance judgment.",
+  "results": [
+    {
+      "strategy": "fixed_size",
+      "question": 1,
+      "rank": 1,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:0419a97e9cdada6587619136",
+      "content_sha256": "32c7765eed48be3b4f3f8ccd54a69dfc6e6eff177cfeeb03891560e4321cc7fe",
+      "judgment": "full",
+      "rationale": "Entire 13.3 supports seller risk and Shopee liability exclusion."
+    },
+    {
+      "strategy": "fixed_size",
+      "question": 1,
+      "rank": 2,
+      "chunk_id": "shopee-chinh-sach-doi-tra-hoan-tien:72e02beb627f4f68bf86992e",
+      "content_sha256": "471bd092d3126bbfd3b5ae1322e22601c8aabeca77d88af911e831fa8ec868f5",
+      "judgment": "none",
+      "rationale": "Damage categories do not identify who bears shipping risk."
+    },
+    {
+      "strategy": "fixed_size",
+      "question": 1,
+      "rank": 3,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:1002c89b4f06597ef7a34e2b",
+      "content_sha256": "7435ce8a6bc1310a6844359b40d8bda68915354347824ff660d1694cb19d3ada",
+      "judgment": "none",
+      "rationale": "Violation remedies do not assign transport risk."
+    },
+    {
+      "strategy": "fixed_size",
+      "question": 2,
+      "rank": 1,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:bdc895b8dfd1acebba967247",
+      "content_sha256": "a81bd4c68ab158894fef009d5f699b0e5438394688de1ab7372a9b03829fa87a",
+      "judgment": "full",
+      "rationale": "17.1 explicitly requires bilateral dialogue first."
+    },
+    {
+      "strategy": "fixed_size",
+      "question": 2,
+      "rank": 2,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:34fabbba30e3282cd9bd32e9",
+      "content_sha256": "2055beed80d42c511782c67624304d95e9de1d8c9972d65c917235b68da4b276",
+      "judgment": "none",
+      "rationale": "Marketplace intermediation is not the initial dispute-resolution action."
+    },
+    {
+      "strategy": "fixed_size",
+      "question": 2,
+      "rank": 3,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:885a8cb26f910e3aeeda68e0",
+      "content_sha256": "0cceaaced9af04f57e6a5d144890d71ad13a9020715fd154128e271a6aaa838e",
+      "judgment": "none",
+      "rationale": "Shipping arrangements do not answer the dispute procedure."
+    },
+    {
+      "strategy": "fixed_size",
+      "question": 3,
+      "rank": 1,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:aaf7f63e12fd8bf74fcf252f",
+      "content_sha256": "2dde0e2db254e150894a76b039ceffa7b4da37134baad29b2ff68d7167cf85f2",
+      "judgment": "full",
+      "rationale": "15.1 includes all requested listing fields and prohibition of misleading information."
+    },
+    {
+      "strategy": "fixed_size",
+      "question": 3,
+      "rank": 2,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:e2580d443ca42a5a8b5e06bf",
+      "content_sha256": "e49742eb8edeb044618acd89f126f1452833653062e918a49306ac4ddc60f073",
+      "judgment": "none",
+      "rationale": "Distribution/minimum-price rights do not specify listing-information duties."
+    },
+    {
+      "strategy": "fixed_size",
+      "question": 3,
+      "rank": 3,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:a89f286793fada9d4689521c",
+      "content_sha256": "625b25bbffce265381f79fcb89d4579fda2294f2a0e5ca462d2038000efcb7f8",
+      "judgment": "none",
+      "rationale": "15.2 discusses pricing only; it does not establish the requested complete-information obligation."
+    },
+    {
+      "strategy": "fixed_size",
+      "question": 4,
+      "rank": 1,
+      "chunk_id": "shopee-chinh-sach-doi-tra-hoan-tien:72e02beb627f4f68bf86992e",
+      "content_sha256": "471bd092d3126bbfd3b5ae1322e22601c8aabeca77d88af911e831fa8ec868f5",
+      "judgment": "none",
+      "rationale": "The table names damage/wrong goods but gives no buyer action or claim entitlement in this fragment."
+    },
+    {
+      "strategy": "fixed_size",
+      "question": 4,
+      "rank": 2,
+      "chunk_id": "shopee-chinh-sach-doi-tra-hoan-tien:3ee0394db680e88789c5d6ba",
+      "content_sha256": "f1db48d7902ab31c21015bf81dd20f8f15f4c4a9cde558df74a3aa3180e3227f",
+      "judgment": "none",
+      "rationale": "Voucher/coin treatment after a refund does not establish eligibility or the buyer action for damaged goods."
+    },
+    {
+      "strategy": "fixed_size",
+      "question": 4,
+      "rank": 3,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:b677deaeaf7ebecd437f257d",
+      "content_sha256": "abaaa34b94d91fd12c4e37add23daa14b4c431855727bd4c2315cae9f349676f",
+      "judgment": "none",
+      "rationale": "Account-balance adjustments and disputes do not answer the buyer remedy question."
+    },
+    {
+      "strategy": "fixed_size",
+      "question": 5,
+      "rank": 1,
+      "chunk_id": "shopee-chinh-sach-doi-tra-hoan-tien:dc273fe0fca07a3844e147d2",
+      "content_sha256": "0b6a844494ac31ffa1a75395b9ef1b07381fe2129c936c64376be2592c5f5b66",
+      "judgment": "partial",
+      "rationale": "The reminder supports requesting within the remaining 15-day period after acknowledging receipt; start times and special cases are absent."
+    },
+    {
+      "strategy": "fixed_size",
+      "question": 5,
+      "rank": 2,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:1964e9e6953f217b5dbadb57",
+      "content_sha256": "1c64c280ed4fe78e68c08437dda3487a705c547dee7462b8de9bf0f73109a130",
+      "judgment": "none",
+      "rationale": "Twelve-month handling of seller payments is unrelated to the buyer submission deadline."
+    },
+    {
+      "strategy": "fixed_size",
+      "question": 5,
+      "rank": 3,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:e939324144ee1376776e1d4c",
+      "content_sha256": "848433f51855220840695bb0c6fe10c86cdf396c93d485f1ed514272229addb5",
+      "judgment": "none",
+      "rationale": "Voucher validity is not the return/refund claim deadline."
+    },
+    {
+      "strategy": "recursive",
+      "question": 1,
+      "rank": 1,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:f29461d3270e87e99dcb7c0d",
+      "content_sha256": "32c7765eed48be3b4f3f8ccd54a69dfc6e6eff177cfeeb03891560e4321cc7fe",
+      "judgment": "full",
+      "rationale": "Entire 13.3 supports seller risk and Shopee liability exclusion."
+    },
+    {
+      "strategy": "recursive",
+      "question": 1,
+      "rank": 2,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:05305fcc8638d1e8e7761391",
+      "content_sha256": "2ef735073f7030b74d1790589e03cfdfd4760892c4c1b1e1ebe573ea774eb938",
+      "judgment": "none",
+      "rationale": "Cross-border import/export restrictions do not assign ordinary shipping-loss risk."
+    },
+    {
+      "strategy": "recursive",
+      "question": 1,
+      "rank": 3,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:e1a598859c95394e005003ee",
+      "content_sha256": "7435ce8a6bc1310a6844359b40d8bda68915354347824ff660d1694cb19d3ada",
+      "judgment": "none",
+      "rationale": "Violation remedies do not assign transport risk."
+    },
+    {
+      "strategy": "recursive",
+      "question": 2,
+      "rank": 1,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:6b3a99e2fe29fa202b057ac1",
+      "content_sha256": "a81bd4c68ab158894fef009d5f699b0e5438394688de1ab7372a9b03829fa87a",
+      "judgment": "full",
+      "rationale": "17.1 explicitly requires bilateral dialogue first."
+    },
+    {
+      "strategy": "recursive",
+      "question": 2,
+      "rank": 2,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:7bd3eaa8962951c1f40e0707",
+      "content_sha256": "8c57db005d4d252e5449060d949b2cdc6d33a36dcee1965e6d1387c764cc9480",
+      "judgment": "none",
+      "rationale": "Marketplace intermediation does not state the initial dispute-resolution action."
+    },
+    {
+      "strategy": "recursive",
+      "question": 2,
+      "rank": 3,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:d3b6ba861e6a949855dccb9d",
+      "content_sha256": "8dbfdabaf27cb4cfd8f2602235f0e38e49f549fa299843e92c4084dde005168f",
+      "judgment": "none",
+      "rationale": "Changing a transaction agreement does not state the initial dispute procedure."
+    },
+    {
+      "strategy": "recursive",
+      "question": 3,
+      "rank": 1,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:e5b2f6116869b758387956af",
+      "content_sha256": "2dde0e2db254e150894a76b039ceffa7b4da37134baad29b2ff68d7167cf85f2",
+      "judgment": "full",
+      "rationale": "15.1 contains all requested listing fields and the misleading-information prohibition."
+    },
+    {
+      "strategy": "recursive",
+      "question": 3,
+      "rank": 2,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:930de983e0c69cafb2aadd0b",
+      "content_sha256": "625b25bbffce265381f79fcb89d4579fda2294f2a0e5ca462d2038000efcb7f8",
+      "judgment": "none",
+      "rationale": "Pricing details alone do not establish the complete listing-information obligation."
+    },
+    {
+      "strategy": "recursive",
+      "question": 3,
+      "rank": 3,
+      "chunk_id": "shopee-chinh-sach-doi-tra-hoan-tien:62eeb993580b1f64816362b9",
+      "content_sha256": "f1db48d7902ab31c21015bf81dd20f8f15f4c4a9cde558df74a3aa3180e3227f",
+      "judgment": "none",
+      "rationale": "Refund voucher/coin treatment is unrelated to seller listing duties."
+    },
+    {
+      "strategy": "recursive",
+      "question": 4,
+      "rank": 1,
+      "chunk_id": "shopee-chinh-sach-doi-tra-hoan-tien:62eeb993580b1f64816362b9",
+      "content_sha256": "f1db48d7902ab31c21015bf81dd20f8f15f4c4a9cde558df74a3aa3180e3227f",
+      "judgment": "none",
+      "rationale": "Refund voucher/coin treatment does not establish the buyer remedy for damage/misdescription."
+    },
+    {
+      "strategy": "recursive",
+      "question": 4,
+      "rank": 2,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:d3b6ba861e6a949855dccb9d",
+      "content_sha256": "8dbfdabaf27cb4cfd8f2602235f0e38e49f549fa299843e92c4084dde005168f",
+      "judgment": "none",
+      "rationale": "A changed agreement is not a buyer remedy for damaged goods."
+    },
+    {
+      "strategy": "recursive",
+      "question": 4,
+      "rank": 3,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:bcf8e19ecfb4add98b08c1a4",
+      "content_sha256": "77c6e601c0f8e31ab2140d024aade891da70cc4ab038fa748baafe60b433bab6",
+      "judgment": "none",
+      "rationale": "Payment-method availability does not address the buyer action."
+    },
+    {
+      "strategy": "recursive",
+      "question": 5,
+      "rank": 1,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:814817bc531a4e984326e1af",
+      "content_sha256": "1b8334459658fbba911393f1e23cf9d2ae983188078be2f4d882364c9e0bbe8c",
+      "judgment": "none",
+      "rationale": "A reference to an unexpired refund period supplies no concrete submission deadline."
+    },
+    {
+      "strategy": "recursive",
+      "question": 5,
+      "rank": 2,
+      "chunk_id": "shopee-chinh-sach-doi-tra-hoan-tien:b3ff3f5c64a02f2104a79eb5",
+      "content_sha256": "b4a91bc4d95ba58ffeecd77882088a8265fc1e2888f7b46672b599d6fbeade24",
+      "judgment": "partial",
+      "rationale": "The 15-day reminder is partial support; the 3–5 working days describe response time, not the submission deadline."
+    },
+    {
+      "strategy": "recursive",
+      "question": 5,
+      "rank": 3,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:756e119d29bffb26f3a7e313",
+      "content_sha256": "848433f51855220840695bb0c6fe10c86cdf396c93d485f1ed514272229addb5",
+      "judgment": "none",
+      "rationale": "Voucher validity is unrelated to the request submission deadline."
+    },
+    {
+      "strategy": "header",
+      "question": 1,
+      "rank": 1,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:8d56027e1897e7a5d337242b",
+      "content_sha256": "7ff1d7f35931bb85602447cafa6663c3a14d5be9a0772f0a9168ae13997ea414",
+      "judgment": "partial",
+      "rationale": "The first sentence supports seller transport risk, but the separate Shopee liability exclusion is missing from top 3."
+    },
+    {
+      "strategy": "header",
+      "question": 1,
+      "rank": 2,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:782d157c7f32460903648dd0",
+      "content_sha256": "fa9dd0fbcda8624aeafd4c4a4cdc6770ab9f95fe02cd72bd3cbe1b20b3a9e652",
+      "judgment": "none",
+      "rationale": "Violation penalties do not assign shipping-loss risk."
+    },
+    {
+      "strategy": "header",
+      "question": 1,
+      "rank": 3,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:a43247292d9b2565b2eb4214",
+      "content_sha256": "b7b7b7a8615004e9c561f2c320e1c1833961321ce5f38f2a9e256ee8c55831e7",
+      "judgment": "none",
+      "rationale": "Import/export restrictions do not answer responsibility for ordinary transport loss."
+    },
+    {
+      "strategy": "header",
+      "question": 2,
+      "rank": 1,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:c677e86f3bc75affc96fcc8a",
+      "content_sha256": "c81143c0f0000dfbe8a2ef1e68e7d823cea9cab82614e0d740d88bc278e6b280",
+      "judgment": "full",
+      "rationale": "17.1 explicitly states dialogue and bilateral discussion first."
+    },
+    {
+      "strategy": "header",
+      "question": 2,
+      "rank": 2,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:a8429111420cb396ca5dacd3",
+      "content_sha256": "4c157a96dc5eb2b983b2b53329506936945d576197c00841b372f7a989224ba7",
+      "judgment": "none",
+      "rationale": "Marketplace intermediation is not the initial dispute-resolution instruction."
+    },
+    {
+      "strategy": "header",
+      "question": 2,
+      "rank": 3,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:0359eb85a496d4a57f1e6542",
+      "content_sha256": "8871a1b3f05bfcf47f78bd8bc1dd47e25cbd36622e9db0988d08496e92b01c7f",
+      "judgment": "none",
+      "rationale": "Indemnification costs are not the action the buyer and seller must take first."
+    },
+    {
+      "strategy": "header",
+      "question": 3,
+      "rank": 1,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:f011185db5b8b661e3f4e8d5",
+      "content_sha256": "384fdca9fa5358e6cb7d983637dd99df0f4512fff9a17e78234afce2c6d9927b",
+      "judgment": "full",
+      "rationale": "15.1 includes every requested listing field and prohibition of misleading information."
+    },
+    {
+      "strategy": "header",
+      "question": 3,
+      "rank": 2,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:d1af1d849e29cdab1cbe88fc",
+      "content_sha256": "e647d1ba2d04aa0527a4ed15eda341f185618868967d71ee1d4927e0f48bc9fc",
+      "judgment": "none",
+      "rationale": "9.5 concerns payment information, not seller product-listing information."
+    },
+    {
+      "strategy": "header",
+      "question": 3,
+      "rank": 3,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:95662d7c844209af94ed97f7",
+      "content_sha256": "e0cedd8572399a6e08655b12e9178edcb1fbcff50439b5022c6342a15e48cc39",
+      "judgment": "none",
+      "rationale": "Distribution/minimum-price arrangements do not specify the listing obligation."
+    },
+    {
+      "strategy": "header",
+      "question": 4,
+      "rank": 1,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:6a4b1c7335944d10a7048c04",
+      "content_sha256": "166b07f4c3916d4f9b0e82e17abaaaf247d25fa1d9e8ea7a6c68c15f969eec1c",
+      "judgment": "none",
+      "rationale": "Account-balance adjustments do not establish a remedy for damaged/misdescribed goods."
+    },
+    {
+      "strategy": "header",
+      "question": 4,
+      "rank": 2,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:777557acb0272533d4371c3c",
+      "content_sha256": "f15f484c1f57ec859d1ec1cfc971ae069994332dc916ed79180a9a7b0ed2fea5",
+      "judgment": "none",
+      "rationale": "Payment-method availability is unrelated to the buyer remedy."
+    },
+    {
+      "strategy": "header",
+      "question": 4,
+      "rank": 3,
+      "chunk_id": "shopee-dieu-khoan-dich-vu:c14ade6bc31cc57399599fc7",
+      "content_sha256": "2b6ba0b04c73e551649e7569d77357c2e01dbd777d3811e3916e87a12fb9fbea",
+      "judgment": "none",
+      "rationale": "Violation penalties do not establish the buyer’s options under returns clause 1.1."
+    },
+    {
+      "strategy": "header",
+      "question": 5,
+      "rank": 1,
+      "chunk_id": "shopee-chinh-sach-doi-tra-hoan-tien:62d20b21e62fbace2d1ec889",
+      "content_sha256": "3df9177339e9d308cef694502228a4d05461cd48ebdd0aabbab99367b7061af2",
+      "judgment": "none",
+      "rationale": "3–5 working days is Shopee response time, not the time allowed to submit a request."
+    },
+    {
+      "strategy": "header",
+      "question": 5,
+      "rank": 2,
+      "chunk_id": "shopee-chinh-sach-doi-tra-hoan-tien:0a2c5e8aeb9d133de20ed0b9",
+      "content_sha256": "d636f5f4be82573cbfbdffb3e9db55f1f01a673a5e020feea344399e34bf3a09",
+      "judgment": "partial",
+      "rationale": "Contains the complete 24-hour fresh/frozen-food case and part of the seller-delivery case, but lacks the 20-day and ordinary-order cases."
+    },
+    {
+      "strategy": "header",
+      "question": 5,
+      "rank": 3,
+      "chunk_id": "shopee-chinh-sach-doi-tra-hoan-tien:b61637ca000d4e5df6a4cd29",
+      "content_sha256": "3380bb39179034c7350ce0306b891d41d12588288288dc90389fbc7600257de9",
+      "judgment": "partial",
+      "rationale": "The 15-day reminder is useful partial support, without the start times or exceptions."
+    }
+  ]
+}
