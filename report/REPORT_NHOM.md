@@ -1,4 +1,4 @@
-//# Báo Cáo Nhóm — Lab 7: Embedding & Vector Store
+# Báo Cáo Nhóm — Lab 7: Embedding & Vector Store
 
 **Nhóm:** Linh Linh
 **Thành viên:** Phạm Đình Bảo Khôi, Phạm Thị Thùy Linh, Nguyễn Thùy Linh, Văn Thành Huy
@@ -198,7 +198,7 @@ class HeaderMarkdownChunker:
         return docs
 ````
 
-**Thành viên 3 — Nguyễn Thùy Linh**
+#### Thành viên 3 — Nguyễn Thùy Linh
 
 - **Loại chiến lược:** Sentence-based chunking
 - **Mô tả & lý do chọn cho chủ đề này:** Chunk theo câu thích hợp vì tài liệu có cấu trúc rõ ràng, các khái niệm được phát biểu trong từng câu và đoạn. Với mục tiêu trả lời câu hỏi chính xác, việc giữ nguyên ranh giới ý và không cắt ngang giữa các câu đóng vai trò rất quan trọng.
