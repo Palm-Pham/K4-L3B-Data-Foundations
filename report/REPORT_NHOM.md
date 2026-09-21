@@ -1,9 +1,10 @@
 # Báo Cáo Nhóm — Lab 7: Embedding & Vector Store
 
 **Nhóm:** Linh Linh
+
 **Thành viên:** Phạm Đình Bảo Khôi, Phạm Thị Thùy Linh, Nguyễn Thùy Linh, Văn Thành Huy
+
 **Ngày:** 20/09/2026
-//
 
 > **Nộp 1 bản / nhóm.** Phần cá nhân (hướng tiếp cận, kết quả riêng, dự đoán…) mỗi thành viên nộp riêng trong `REPORT_CANHAN.md`. Chi tiết thang điểm: `docs/SCORING.md`.
 
@@ -71,7 +72,7 @@ Chạy `ChunkingStrategyComparator().compare()` trên 2-3 tài liệu:
 
 ### Chiến lược của từng thành viên
 
-> **Thành viên 1 — Văn Thành Huy**
+#### Thành viên 1 — Văn Thành Huy
 
 - **Loại chiến lược:** Parent-Child Chunker (`ParentChildChunker`)
 - **Mô tả & lý do chọn cho chủ đề này:**
@@ -80,7 +81,7 @@ Chạy `ChunkingStrategyComparator().compare()` trên 2-3 tài liệu:
   2. **Child Chunks nhỏ (~300 ký tự)**: Dùng để tính toán embedding & similarity score giúp truy xuất cực kỳ chính xác.
 - **Code snippet:**
 
-````python
+```python
 class ParentChildChunker:
     """
     Parent-Child (Hierarchical) Chunking Strategy.
@@ -107,8 +108,9 @@ class ParentChildChunker:
                     "parent_content": parent_text,
                 })
         return results
+```
 
-**Thành viên 2 — Phạm Đình Bảo Khôi**
+#### Thành viên 2 — Phạm Đình Bảo Khôi
 
 - **Loại chiến lược:** HeadingStructureChunker
 - **Mô tả & lý do chọn:** Cấu trúc heading giúp giữ nguyên mục lớn như "Quy định chung", "Hàng hóa bị cấm", "Vận chuyển". Đối với chính sách Shopee, mỗi section mang một ý chính nên phương pháp này giữ ngữ cảnh tốt hơn khi người dùng hỏi về một phần cụ thể của policy.
@@ -173,7 +175,7 @@ class HeaderMarkdownChunker:
         if self.overlap:
             for i in range(len(pieces) - 1, 0, -1):
                 tail = pieces[i-1][-self.overlap:]
-        if self.fits(prefix + tail + '\n' + pieces[i]):
+                if self.fits(prefix + tail + '\n' + pieces[i]):
                     pieces[i] = tail + '\n' + pieces[i]
         return pieces
 
@@ -196,7 +198,7 @@ class HeaderMarkdownChunker:
                     'chunk_id': chunk_id, 'fallback_split': len(pieces) > 1,
                     'major_section_crossings': 0, 'source_start': unit.start, 'source_end': unit.end}))
         return docs
-````
+```
 
 #### Thành viên 3 — Nguyễn Thùy Linh
 
@@ -213,7 +215,7 @@ chunks = chunker.chunk(text)
 print(chunks)
 ```
 
-**Thành viên 4 — Phạm Thị Thùy Linh**
+#### Thành viên 4 — Phạm Thị Thùy Linh
 
 - **Loại chiến lược:** RecursiveChunker
 - **Mô tả & lý do chọn:** Tôi chọn `RecursiveChunker` vì phương pháp này ưu tiên giữ các đoạn lớn có nghĩa, sau đó mới tách tiếp theo dòng, câu và từ khi đoạn vượt quá kích thước cho phép. Điều này phù hợp với policy Shopee vì vừa giữ được ngữ cảnh của từng mục, vừa xử lý được các mục dài hoặc danh sách nhiều điều kiện.
@@ -256,15 +258,13 @@ RecursiveChunker(chunk_size=500)
 
 > Cách chấm (theo `docs/SCORING.md`): **2 điểm/câu** — top-3 chứa chunk liên quan + agent trả lời đúng (2), có liên quan nhưng thiếu/không ở top-1 (1), không có trong top-3 (0).
 
-| #   | Câu hỏi                                                  | Chiến lược tốt nhất cho câu này | Có chunk liên quan trong top-3? | Ghi chú                                                                           |
-| --- | -------------------------------------------------------- | ------------------------------- | ------------------------------- | --------------------------------------------------------------------------------- |
-| 1   | Người bán cần làm gì để đăng bán đúng quy định?          | HeadingStructureChunker         | Có                              | Section "Quy định đăng bán" giữ nguyên ngữ cảnh các tiêu chí hình ảnh/mô tả       |
-| 2   | Sản phẩm nào bị Shopee cấm hoặc hạn chế bán?             | SentenceChunker                 | Có                              | Danh sách các gạch đầu dòng hàng cấm khớp rất mạnh theo câu                       |
-| 3   | Hàng hóa dễ vỡ/ nguy hiểm có quy định gì?                | SentenceChunker                 | Có                              | Child tìm đúng mốc thời gian (3/7/15 ngày), Parent cung cấp đủ điều kiện kèm theo |
-| 4   | Người mua có thể khiếu nại khi vận chuyển hư hỏng không? | HeadingStructureChunker         | Có                              |
-
-Nhờ metadata category=privacy-policy loại trừ toàn bộ nhiễu từ các văn bản khác |
-| 5 | Ai chịu trách nhiệm nếu đóng gói sai? | SentenceChunker | Có | Truy xuất chính xác quy trình bảo hành của Mall mà không bị lẫn với chính sách hoàn tiền |
+| #   | Câu hỏi                                                  | Chiến lược tốt nhất cho câu này | Có chunk liên quan trong top-3? | Ghi chú                                                                                  |
+| --- | -------------------------------------------------------- | ------------------------------- | ------------------------------- | ---------------------------------------------------------------------------------------- |
+| 1   | Người bán cần làm gì để đăng bán đúng quy định?          | HeadingStructureChunker         | Có                              | Section "Quy định đăng bán" giữ nguyên ngữ cảnh các tiêu chí hình ảnh/mô tả              |
+| 2   | Sản phẩm nào bị Shopee cấm hoặc hạn chế bán?             | SentenceChunker                 | Có                              | Danh sách các gạch đầu dòng hàng cấm khớp rất mạnh theo câu                              |
+| 3   | Hàng hóa dễ vỡ/ nguy hiểm có quy định gì?                | SentenceChunker                 | Có                              | Child tìm đúng mốc thời gian (3/7/15 ngày), Parent cung cấp đủ điều kiện kèm theo        |
+| 4   | Người mua có thể khiếu nại khi vận chuyển hư hỏng không? | HeadingStructureChunker         | Có                              | Nhờ metadata category=privacy-policy loại trừ toàn bộ nhiễu từ các văn bản khác          |
+| 5   | Ai chịu trách nhiệm nếu đóng gói sai?                    | SentenceChunker                 | Có                              | Truy xuất chính xác quy trình bảo hành của Mall mà không bị lẫn với chính sách hoàn tiền |
 
 **Lọc bằng metadata có giúp ích không? Ở câu hỏi nào?**
 
